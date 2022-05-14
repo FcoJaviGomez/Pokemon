@@ -1,0 +1,13 @@
+<div class="tarjeta">
+    <div class="nombre">{{pokemonPadre.name | titlecase}}</div>
+    <div class="imagen">
+        <figure>
+            <img class="img" src="{{pokemonPadre.sprites.front_shiny}}">
+        </figure>
+    </div>
+    <div class="info">
+        <div>Peso: {{pokemonPadre.weight}} kg</div>
+
+        <div *ngFor="let tipo of pokemonPadre.types">Type {{tipo.slot}}: {{tipo.type.name}}</div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<body class="body">
+
+    <div class="tarjeta_header">BUSCA TU POKEMON FAVORITO</div>
+    <div class="input">
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text input2" id="addon-wrapping">#</span>
+            <input type="text" class="form-control input2" id="id" #id placeholder="Introduce numero de pokedex"
+                aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <button type="reset" on-click=getPokemon(id.value) class="boton"></button>
+    </div>
+    <div *ngIf="pokemon">
+        <app-card [pokemonPadre]="pokemon"></app-card>
+    </div>
+</body>

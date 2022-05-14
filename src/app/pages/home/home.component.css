@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+.body {
+    background-image: url("../../../assets/lugia.jpg");
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.tarjeta_header {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(235 13 13 / 72%);
+    padding: 10px;
+}
+
+.input {
+    margin-bottom: 80px;
+    width: 350px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.input2 {
+    margin-top: 4px;
+    height: 30px;
+}
+
+.input2:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.boton {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/640px-Pok%C3%A9_Ball_icon.svg.png");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 30px;
+    border-radius: 900px;
+    height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}

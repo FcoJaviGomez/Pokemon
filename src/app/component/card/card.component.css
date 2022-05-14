@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.tarjeta {
+    min-height: 260px;
+    width: 220px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(235 13 13 / 72%);
+    padding: 5px;
+}
+
+.nombre {
+    padding: 10px;
+    font-family: 'Acme', sans-serif;
+    font-style: initial;
+    /* font-weight: bolder; */
+    font-size: 20px;
+    color: white;
+}
+
+.imagen {
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    background-color: #f0eaff;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.info {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+}
